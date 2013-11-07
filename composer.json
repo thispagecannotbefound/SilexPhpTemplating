@@ -1,0 +1,22 @@
+{
+	"name": "thispagecannotbefound/silex-php-templating",
+	"type": "library",
+	"description": "Silex Service Provider for the Symfony 2 PHP Templating engine.",
+	"keywords": ["silex", "symfony2", "templating", "phpengine"],
+	"homepage": "https://github.com/thispagecannotbefound/SilexPhpTemplating",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Abel de Beer",
+			"email": "abel@thispagecannotbefound.com",
+			"homepage": "http://thispagecannotbefound.com"
+		}
+	],
+	"require": {
+		"silex/silex": "1.*",
+		"symfony/templating": "2.3.*"
+	},
+	"autoload": {
+		"psr-0": {"ThisPageCannotBeFound": "src/"}
+	}
+}
