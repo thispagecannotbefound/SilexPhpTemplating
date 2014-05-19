@@ -5,9 +5,7 @@ namespace ThisPageCannotBeFound\Silex\Application;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * Twig trait.
- *
- * @author Fabien Potencier <fabien@symfony.com>
+ * @author Abel de Beer <abel@thispagecannotbefound.com>
  */
 trait PhpTemplatingTrait {
 
